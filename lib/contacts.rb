@@ -13,5 +13,5 @@ contacts = {
 
   
 def remove_strawberry(contacts)
-  :favorite_ice_cream_flavors.delete("strawberry")
+  contacts["Freddy Mercury"].delete("strawberry")
 end
